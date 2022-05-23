@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="/Img/icon.png">
+    <title>Ares - Tecnologia no seu bolso</title>
+    <style>
+        @font-face {
+            font-family: Futura;
+            src: url(fontes/futura-extra-bold-oblique.otf);
+        }
+        @font-face {
+            font-family: Futura C;
+            src: url(fontes/futura-condensed-extra-bold.otf);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .logo{
+            position: absolute;
+            right: 1750px;
+            font-size: 35px;
+            text-transform: uppercase;
+            letter-spacing: 0px;
+            font-family: "Futura C";
+            color: #8e42aa;
+        }
+        nav{
+            overflow: hidden;
+            position: fixed;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: "Poppins";
+            background-color: white;
+            height: 8vh;
+            width: 100%;
+        }
+        main{
+            padding: 5% 10%;
+            height: 92vh;
+
+        }
+        h1{
+            font-family: "Futura C";
+            font-size: 50px;
+            padding-top: 0px;
+            color: #8e42aa;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 80px;
+        }
+        .nav-list{
+            list-style: none;
+            display: flex;
+        }
+        .nav-list li{
+            border: solid 1px #8e42aa;
+            background: #8e42aa;
+            border-radius: 30px;
+            letter-spacing: 0px;
+            margin-left: 32px;
+
+            font-size: 15px;
+            font-family: Poppins;
+            color: white;
+            background: #8e42aa;
+            border: 0;
+            height: 35px;
+            border-radius: 30px;
+            padding-top: 0.4rem;
+            padding-right: 1.5rem;
+            padding-left: 1.5rem;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+        img{
+            height: 100%;
+        }
+        .produto{
+           margin-bottom: 80px;
+           margin-right: 40px;
+        }
+        .produto img{
+            align-items: center;
+            height: 400px;
+            width: 400px;
+        }
+        .produtos{
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .produto p{
+            border-radius: 20px;
+            text-align: center;
+            padding: 5px 10px;
+            color: white;
+            background-color: #8e42aa;
+            font-family: "Poppins";
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="index.html">ARES</a>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catalogo</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <h1>ESCOLHA SUA MARCA</h1>
+        <div class="conteudo">
+            <section class="produtos">
+                <section class="produto">
+                    <a href="xiaomi.html"><img src="https://files.tecnoblog.net/wp-content/uploads/2022/02/redmi-note-11-produto-700x700.png" alt="Xiaomi"></a>
+                    <p>XIAOMI <br>
+                        99.90 A VISTA
+                    </p>
+                </section>
+                <section class="produto">
+                    <a href="#"><img src="https://alliedecommerce.s3.amazonaws.com/desbloqueados_production/product_images/0001/7396/large.png?1636377508" alt="Samsung"></a>
+                    <p>SAMSUNG</p>
+                </section>
+                <section class="produto">
+                    <a href="#"><img src="https://www.showmetech.com.br/wp-content/uploads//2021/08/motorola-edge-20-combined-pdp-ecom-render-10-edge-20-lite-mystic-lagoon-.png" alt="Motorola"></a>
+                    <p>MOTOROLA</p>
+                </section>
+                <section class="produto">
+                    <a href="apple.html"><img src="https://images.kabum.com.br/produtos/fotos/239739/iphone-13-pro-128gb-dourado-5g-tela-de-6-1-camera-tripla-12mp-mlvc3bz-a_1634140850_original.jpg" alt="Apple"></a>
+                    <p>APPLE</p>
+                </section>
+                <section class="produto">
+                    <a href="#"><img src="https://dlcdnwebimgs.asus.com/gain/4c455898-c844-468b-bbd3-73d0640b6ce9/" alt="Asus"></a>
+                    <p>ASUS</p>
+                </section>
+                <section class="produto">
+                    <a href="#"><img src="https://images-americanas.b2w.io/produtos/53299596/imagens/smartphone-huawei-p20-lite-32gb-dual-sim-global-tela-5-8-16-2mp-16mp-os-8-0-preto/53299593_1_large.jpg" alt="Huawei"></a>
+                    <p>HUAWEI</p>
+                </section>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

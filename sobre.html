@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="/Img/icon.png">
+    <title>Ares - Tecnologia no seu bolso</title>
+    <style>
+        @font-face {
+            font-family: Futura;
+            src: url(fontes/futura-extra-bold-oblique.otf);
+        }
+        @font-face {
+            font-family: Futura C;
+            src: url(fontes/futura-condensed-extra-bold.otf);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .logo{
+            position: absolute;
+            right: 1750px;
+            font-size: 35px;
+            text-transform: uppercase;
+            letter-spacing: 0px;
+            font-family: "Futura C";
+            color: #8e42aa;
+        }
+        nav{
+            overflow: hidden;
+            position: fixed;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: "Poppins";
+            background-color: white;
+            height: 8vh;
+            width: 100%;
+        }
+        main{
+            padding-top: 5%;
+            padding-left: 10%;
+            height: 92vh;
+
+        }
+        .nav-list{
+            list-style: none;
+            display: flex;
+        }
+        .nav-list li{
+            
+            transition: 0.5s;
+            border: solid 1px #8e42aa;
+            background: #8e42aa;
+            border-radius: 30px;
+            letter-spacing: 0px;
+            margin-left: 32px;
+
+            font-size: 15px;
+            font-family: Poppins;
+            color: white;
+            background: #8e42aa;
+            border: 0;
+            height: 35px;
+            border-radius: 30px;
+            padding-top: 0.4rem;
+            padding-right: 1.5rem;
+            padding-left: 1.5rem;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+
+        h1{
+            font-family: "Futura C";
+            font-size: 50px;
+            padding-top: 0px;
+            color: #8e42aa;
+        }
+        h2{
+            color: #8e42aa;
+            font-family: "Poppins";
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        img{
+            width: 00%;
+            height: 100%;
+            border-radius: 30px;
+        }
+        button{
+            margin-right: 15px;
+            font-size: 15px;
+            font-family: Poppins;
+            color: white;
+            background: #8e42aa;
+            border: 0;
+            text-transform: initial;
+            height: 45px;
+            border-radius: 30px;
+            padding-right: 1.5rem;
+            padding-left: 1.5rem;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin-bottom: 0px;
+
+        }
+
+        .conteudo{
+            position: absolute;
+            top: 300px;
+            justify-content: center;
+            text-align: left;
+            padding-right: 50%;
+        }
+        .conteudo button{
+            transition: 1s; 
+        }
+        .conteudo button:hover{
+            box-shadow: 0px 0px 50px -10px #8E42AA;
+            transition: 0.5s;
+        }
+        
+    </style>
+</head>
+<body background="img/fundo-sobre.png">
+    <header>
+        <nav>
+            <a class="logo" href="index.html">ARES</a>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catalogo</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <div class="conteudo">
+           <h1>TECNOLOGIA DE QUALIDADE!!</h1>
+           <h1>ACESSÍVEL PARA TODOS</h1>
+           <h2>A Xiaomi foi fundada em 2010 pelo empreendedor serial Lei Jun com base na visão de "inovação para todos".
+            Acreditamos que produtos de alta qualidade construídos com tecnologia de ponta devem ser eacessíveis a todos.
+            Nós criamos hardware, software e serviços de internet excepcionais para e com a ajuda de nossos Mi Fãs.
+            Nós incorporamos o seu feedback em nossa linha de produtos, que atualmente incluem smartphones Mi e Redmi,
+            TVs e Set-top-boxes, roteadores, e produtos do ecossistema Mi incluindo dispositivos inteligentes, tecnologia vestível e outros acessórios.
+            Com presença em mais de 30 países e regiões, a Xiaomi está se expandindo ao redor do mundo para se tornar uma marca global.</h2>
+           <a href="contato.html" target="_blank"><button>Fale conosco  </button></a>
+        </div>
+    </main>
+    
+</body>
+</html>
